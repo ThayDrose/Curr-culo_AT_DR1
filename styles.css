@@ -60,7 +60,8 @@ header nav {
 
 header nav ul {
   display: flex;
-  gap: 30px;
+  justify-content: space-around;
+  gap: 5px;
 }
 
 header nav ul li a {
@@ -94,7 +95,7 @@ header nav ul li a:hover {
   background-color: white;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   max-width: 900px;
-  width: calc(100% - 120px);
+  width: 90%;
   margin-top: 100px;
   margin-bottom: -67px;
   margin-left: auto;
@@ -111,7 +112,11 @@ header nav ul li a:hover {
   text-align: left;
   color: #333;
 }
-
+@media (min-width: 768px) {
+  .hero-content-area {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .profile-img {
   width: 100%;
   height: 100%;
