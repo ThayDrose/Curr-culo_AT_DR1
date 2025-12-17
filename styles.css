@@ -242,7 +242,6 @@ header nav ul li a:hover {
 .skills-section {
   background: linear-gradient(to right, #f7f7fb, white);
   padding: 32px 16px 0 16px;
-
 }
 
 .skills-wrapper {
@@ -485,5 +484,3 @@ footer {
   font-size: 0.9em;
   text-align: center;
 }
-
-
