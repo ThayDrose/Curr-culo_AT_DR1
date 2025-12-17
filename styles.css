@@ -199,7 +199,7 @@ header nav ul li a:hover {
   text-align: center;
 
   color: #0b1a37;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 40px;
   font-size: 36px;
 }
@@ -485,4 +485,5 @@ footer {
   font-size: 0.9em;
   text-align: center;
 }
+
 
